@@ -31,10 +31,7 @@
     flex-direction: column;
     gap: 70px;
 }
-.about-left img{
-    /* width: 250px; */
 
-}
 .about-para{
     display: flex;
     flex-direction: column;
