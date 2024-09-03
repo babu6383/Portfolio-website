@@ -67,12 +67,12 @@
     .hero p{
         width: 60%;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 32px;
         margin: 10px 0px;
     }
     .hero-action{
         gap: 16px;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom:  50px;
 

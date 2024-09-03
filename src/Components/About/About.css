@@ -32,7 +32,7 @@
     gap: 70px;
 }
 .about-left img{
-    width: 250px;
+    /* width: 250px; */
 
 }
 .about-para{
@@ -103,7 +103,7 @@
     .about{
         gap: 80px;
         margin: 50px 70px;
-        align-items: center;
+        align-items: start;
     }
     .about-title h1{
         font-size: 50px;
@@ -142,11 +142,11 @@
         gap: 10px;
     }
     .about-achievement h1{
-        font-size: 33px;
+        font-size: 34px;
         font-weight: 700;
     }
     .about-achievement p{
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
     }
 }
