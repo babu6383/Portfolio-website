@@ -103,7 +103,7 @@
     gap: 35px;
 }
 
-.footer-email-input {
+/* .footer-email-input {
     display: flex;
     gap: 30px;
     padding: 20px 30px;
@@ -119,7 +119,7 @@
     color: #a0a0a0;
     font-family: Outfit;
     font-size: 18px;
-}
+} */
 
 .footer-subscribe {
     font-size: 20px;
@@ -263,15 +263,23 @@
     .footer-email-input {
         flex-direction: column; /* Stacks elements vertically */
         gap: 15px;
-        padding: 15px;
+        padding: 15px 30px ;
+        height: 30px;
         width: 100%;
         padding-right: 15px;
         align-items: stretch; /* Ensures input and button are full width */
+    }
+    .footer-email-input img{
+        width: 20px;
+        margin-left: -20px;
+        margin-bottom: -10px;
+        
     }
 
     .footer-email-input input {
         width: 100%; /* Full width on smaller screens */
         font-size: 16px;
+        margin-top: -40px;
     }
 
     .footer-subscribe {
@@ -287,6 +295,7 @@
         padding: 10px; /* Smaller padding for extra small screens */
         gap: 10px;
     }
+    
 
     .footer-email-input input {
         font-size: 14px; /* Smaller font size for extra small screens */

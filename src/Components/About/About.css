@@ -86,7 +86,7 @@
 }
 .about-achievement p{
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .about-skill:hover{
     transform: scale(1.05);
@@ -145,7 +145,6 @@
     .about-achievement p{
         text-align: center;
         font-size: 16px;
-        margin: 10px;
     }
 } */
 
@@ -277,9 +276,9 @@
     .about-right {
         gap: 40px;
     }
-    .about-achivements {
+    /* .about-achivements {
         gap: 40px;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -298,7 +297,7 @@
     }
     .about-sections {
         flex-direction: column;
-        gap: 40px;
+        gap: 50px;
     }
     .about-left {
         display: none;
@@ -317,23 +316,23 @@
     .about-skill hr {
         height: 6px;
     }
-    .about-achivements {
+    /* .about-achivements {
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 20px;
-    }
-    .about-achievement {
+    } */
+    /* .about-achievement {
         gap: 10px;
     }
     .about-achievement h1 {
-        font-size: 34px;
-        font-weight: 700;
+        font-size: 30px;
+        font-weight: 500;
     }
     .about-achievement p {
         text-align: center;
         font-size: 16px;
-        margin: 10px;
-    }
+       
+    } */
 }
 
 /* Smaller Mobile Devices */
@@ -352,10 +351,40 @@
     .about-skill p {
         font-size: 16px;
     }
-    .about-achievement h1 {
+    /* .about-achievement h1 {
         font-size: 28px;
     }
     .about-achievement p {
         font-size: 14px;
+    } */
+}
+@media (max-width: 768px) {
+    .about-achivements {
+        flex-direction: column; /* Aligns the items vertically */
+        align-items: center; /* Centers items horizontally */
+        gap: 30px; /* Spacing between each achievement */
+    }
+
+    .about-achievement {
+        max-width: 100%; /* Allows each achievement item to use full width */
+        text-align: center; /* Centers the text content */
+    }
+
+    .about-achievement h1 {
+        font-size: 40px; /* Adjusted font size for headings on smaller screens */
+    }
+
+    .about-achievement p {
+        font-size: 18px; /* Adjusted font size for paragraphs on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-achievement h1 {
+        font-size: 30px; /* Further reduced font size for headings on extra small screens */
+    }
+
+    .about-achievement p {
+        font-size: 16px; /* Further reduced font size for paragraphs on extra small screens */
     }
 }
