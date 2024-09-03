@@ -155,7 +155,7 @@
 /* Mobile and Tablet Styles */
 @media (max-width: 768px) {
     .footer {
-        margin: 30px 20px;
+        margin: 30px 30px;
     }
 
     .footer-top {
@@ -205,7 +205,7 @@
 /* Extra Small Mobile Styles */
 @media (max-width: 480px) {
     .footer {
-        margin: 20px 10px;
+        margin: 20px 20px;
         gap: 20px;
     }
 
@@ -232,7 +232,7 @@
     display: flex;
     align-items: center; /* Aligns items vertically in the center */
     gap: 30px;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border-radius: 50px;
     background: #32323B;
     padding-right: 80px;
@@ -247,6 +247,7 @@
     font-size: 18px;
     flex-grow: 1; /* Allows input to grow within the container */
     min-width: 0; /* Prevents the input from stretching too much */
+    
 }
 
 .footer-subscribe {
@@ -268,6 +269,7 @@
         width: 100%;
         padding-right: 15px;
         align-items: stretch; /* Ensures input and button are full width */
+        margin: 10px 50px;
     }
     .footer-email-input img{
         width: 20px;
@@ -277,9 +279,11 @@
     }
 
     .footer-email-input input {
-        width: 100%; /* Full width on smaller screens */
+        width: 150px; /* Full width on smaller screens */
         font-size: 16px;
         margin-top: -40px;
+        padding: 0px 5px ;
+       
     }
 
     .footer-subscribe {

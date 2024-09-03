@@ -118,7 +118,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
     margin: 80px 170px;
 }
 
@@ -143,7 +143,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 60px;
     border-radius: 10px;
     border: 2px solid white;
@@ -164,7 +164,7 @@
 }
 
 .services-format h2 {
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 800;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
     background-clip: text;
@@ -214,7 +214,7 @@
     .services {
         align-items: start;
         gap: 70px;
-        margin: 20px 20px;
+        margin: 20px 40px;
     }
     .services-title h1 {
         padding: 0;
@@ -248,7 +248,7 @@
 /* Smaller Mobile Devices */
 @media (max-width: 480px) {
     .services {
-        margin: 10px 10px;
+        margin: 10px 30px;
         gap: 40px;
     }
     .services-title h1 {

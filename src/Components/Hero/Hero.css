@@ -141,6 +141,11 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+    
+}
+.hero-resume a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .hero-connect:hover {

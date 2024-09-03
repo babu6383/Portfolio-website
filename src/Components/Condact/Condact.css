@@ -276,7 +276,7 @@
 @media (max-width: 768px) {
     .condact {
         gap: 50px;
-        margin: 50px 20px;
+        margin: 50px 60px;
         align-items: flex-start;
     }
 
@@ -327,7 +327,7 @@
 /* Extra Small Mobile Styles */
 @media (max-width: 480px) {
     .condact {
-        margin: 30px 10px;
+        margin: 30px 20px;
     }
 
     .condact-title h1 {
