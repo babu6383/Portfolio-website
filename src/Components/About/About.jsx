@@ -17,7 +17,7 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ut laboriosam ipsam sit rerum natus necessitatibus dolorum fugiat exercitationem. Est?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil error labore reprehenderit modi ratione quisquam beatae sunt! Cupiditate, dignissimos est.</p>
+                    {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil error labore reprehenderit modi ratione quisquam beatae sunt! Cupiditate, dignissimos est.</p> */}
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"90%"}}/></div>

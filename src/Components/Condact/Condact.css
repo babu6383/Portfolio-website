@@ -1,4 +1,4 @@
-.condact{
+/* .condact{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
    bottom: 0;
    right: 0;
    z-index: -1;
-   /* width: 150px; */
+   
 }
 .condact-section{
     display: flex;
@@ -59,9 +59,7 @@
     align-items: center;
     gap: 20px;
 }
-/* .condact-detail img{
-    width: 20px;
-} */
+
 .condact-right{
     display: flex;
     flex-direction: column;
@@ -87,7 +85,7 @@
 .condact-right textarea{
     width: 650px;
     border: none;
-    /* height: 150px; */
+    
     padding: 25px;
     border-radius: 4px;
     background: #32323c;
@@ -156,7 +154,203 @@
     .condact-submit{
         font-size:20px ;
         padding: 15px 40px;
-        /* margin-left: 25%;
-        margin-top: 10px; */
+      
+    }
+} */
+
+
+.condact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.condact-title {
+    position: relative;
+}
+
+.condact-title h1 {
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.condact-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.condact-section {
+    display: flex;
+    gap: 150px;
+}
+
+.condact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.condact-left h1 {
+    font-size: 70px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.condact-left p {
+    max-width: 550px;
+    color: #D8D8D8;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.condact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 20px;
+}
+
+.condact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.condact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.condact-right label {
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.condact-right input,
+.condact-right textarea {
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+
+.condact-right textarea {
+    height: 150px; /* Set a specific height for textarea */
+}
+
+.condact-submit {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.condact-submit:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Mobile and Tablet Styles */
+@media (max-width: 768px) {
+    .condact {
+        gap: 50px;
+        margin: 50px 20px;
+        align-items: flex-start;
+    }
+
+    .condact-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .condact-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .condact-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .condact-left h1 {
+        font-size: 40px;
+    }
+
+    .condact-left p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .condact-detail {
+        gap: 20px;
+    }
+
+    .condact-right label {
+        font-size: 20px;
+    }
+
+    .condact-right input,
+    .condact-right textarea {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .condact-submit {
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+}
+
+/* Extra Small Mobile Styles */
+@media (max-width: 480px) {
+    .condact {
+        margin: 30px 10px;
+    }
+
+    .condact-title h1 {
+        font-size: 40px;
+    }
+
+    .condact-left h1 {
+        font-size: 32px;
+    }
+
+    .condact-left p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .condact-right label {
+        font-size: 18px;
+    }
+
+    .condact-submit {
+        font-size: 18px;
+        padding: 12px 30px;
+        width: 100%;
+        text-align: center;
     }
 }
