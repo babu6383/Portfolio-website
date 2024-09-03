@@ -169,14 +169,14 @@
         max-width: 100%;
     }
 
-    .footer-email-input {
+    /* .footer-email-input {
         flex-direction: column;
         padding: 15px;
         width: 100%;
         padding-right: 15px;
-    }
+    } */
 
-    .footer-email-input input {
+    /* .footer-email-input input {
         width: 100%;
         font-size: 16px;
     }
@@ -186,7 +186,7 @@
         font-size: 18px;
         width: 100%;
         text-align: center;
-    }
+    } */
 
     .footer-bottom {
         flex-direction: column-reverse;
@@ -218,13 +218,82 @@
         max-width: 100%;
     }
 
-    .footer-subscribe {
+    /* .footer-subscribe {
         padding: 12px 25px;
         font-size: 16px;
-    }
+    } */
 
     .footer-bottom-right {
         gap: 10px;
         font-size: 14px;
+    }
+}
+.footer-email-input {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 30px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: #32323B;
+    padding-right: 80px;
+}
+
+.footer-email-input input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 18px;
+    flex-grow: 1; /* Allows input to grow within the container */
+    min-width: 0; /* Prevents the input from stretching too much */
+}
+
+.footer-subscribe {
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+@media (max-width: 768px) {
+    .footer-email-input {
+        flex-direction: column; /* Stacks elements vertically */
+        gap: 15px;
+        padding: 15px;
+        width: 100%;
+        padding-right: 15px;
+        align-items: stretch; /* Ensures input and button are full width */
+    }
+
+    .footer-email-input input {
+        width: 100%; /* Full width on smaller screens */
+        font-size: 16px;
+    }
+
+    .footer-subscribe {
+        width: 100%; /* Full width button on smaller screens */
+        text-align: center;
+        padding: 15px 30px; /* Adjust padding for smaller screens */
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-email-input {
+        padding: 10px; /* Smaller padding for extra small screens */
+        gap: 10px;
+    }
+
+    .footer-email-input input {
+        font-size: 14px; /* Smaller font size for extra small screens */
+    }
+
+    .footer-subscribe {
+        font-size: 16px; /* Smaller font size for button */
+        padding: 12px 20px; /* Adjust padding for extra small screens */
     }
 }
