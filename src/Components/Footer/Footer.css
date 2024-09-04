@@ -78,12 +78,25 @@
     }
    
 }  */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .footer {
     display: flex;
     margin: 50px 170px;
     flex-direction: column;
     gap: 30px;
+}
+.dinesh{
+    /* font-family: "Kanit", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: weight;
+}
+.dinesh span{
+   font-family: "Bungee Shade", sans-serif;
+   font-weight: 600;
+   font-size: 50px;
 }
 
 .footer-top {
@@ -103,23 +116,6 @@
     gap: 35px;
 }
 
-/* .footer-email-input {
-    display: flex;
-    gap: 30px;
-    padding: 20px 30px;
-    border-radius: 50px;
-    background: #32323B;
-    padding-right: 80px;
-}
-
-.footer-email-input input {
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #a0a0a0;
-    font-family: Outfit;
-    font-size: 18px;
-} */
 
 .footer-subscribe {
     font-size: 20px;
@@ -127,7 +123,7 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
-    transition: 0.3s;
+   transition: 0.3s;
 }
 
 .footer-bottom {
@@ -148,8 +144,9 @@
 }
 
 .footer-subscribe:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+  border: 2px solid white;
+  
+   
 }
 .social-icon{
     display: flex;
@@ -240,7 +237,7 @@
 .footer-email-input {
     display: flex;
     align-items: center; /* Aligns items vertically in the center */
-    gap: 30px;
+    gap: 10px;
     padding: 20px 20px;
     border-radius: 50px;
     background: #32323B;
@@ -288,7 +285,7 @@
     }
 
     .footer-email-input input {
-        width: 150px; /* Full width on smaller screens */
+        width: 130px; /* Full width on smaller screens */
         font-size: 16px;
         margin-top: -40px;
         padding: 0px 5px ;
@@ -298,7 +295,7 @@
     .footer-subscribe {
         width: 100%; /* Full width button on smaller screens */
         text-align: center;
-        padding: 15px 30px; /* Adjust padding for smaller screens */
+        padding: 20px 30px; /* Adjust padding for smaller screens */
         font-size: 18px;
     }
 }

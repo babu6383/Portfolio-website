@@ -1,8 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+}
+.dinesh{
+     /* font-family: "Kanit", sans-serif; */
+     font-family: "Josefin Sans", sans-serif;
+     font-weight: weight;
+}
+.dinesh span{
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
 }
 .nav-menu{
     display: flex;
@@ -14,7 +32,7 @@
 .nav-connect{
     padding: 18px 38px;
     border-radius: 50px;
-    background: linear-gradient(267deg , #9e1f63 0.36%, #392d91 102.06%);
+    background: linear-gradient(270deg, #DF8908 10%, #B415ff 100%);
     font-size: 22px;
     cursor: pointer;
     

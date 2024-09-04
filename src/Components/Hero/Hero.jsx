@@ -55,7 +55,7 @@ const Hero = () => {
       <p data-aos="fade-up"> a passionate frontend developer crafting beautiful and functional web experiences."</p>
       <div className="hero-action">
         <div className="hero-connect" data-aos="fade-up">
-          <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink>
+          <AnchorLink className='anchor-link' offset={50} href='#condact'>Connect With Me</AnchorLink>
         </div>
         <div className="hero-resume" data-aos="fade-up">
           <a href={resume} target="_self">My Resume</a>

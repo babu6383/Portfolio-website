@@ -1,9 +1,11 @@
 
 import './Navbar.css';
-import logo from '../../assets/logo.svg'
+// import logo from '../../assets/logo.svg'
+// import dinesh from '../../assets/dinesh.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
+
 import { useEffect, useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
@@ -36,7 +38,7 @@ const Navbar = () => {
   
   return (
     <div className='navbar'>
-        <img src={logo} alt='' />
+        <h1 className='dinesh'><span>D</span> inesh</h1>
         <img src={menu_open} onClick={openMenu}  alt="" className='nav-mob-open' data-aos="fade-left"/>
         <ul  ref={menuRef} className='nav-menu' role="menu" aria-hidden="true">
           <img src={menu_close} onClick={closeMenu}    alt="Close menu" className="nav-mob-close" />

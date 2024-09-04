@@ -265,19 +265,21 @@
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.condact-submit:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+  }
+  .condact-submit:hover{
+   border: 2px solid white;
 }
 .social-icon button{
     margin: 5px 5px;
     border: 1px solid;
     border-radius: 50%;
     padding: 5px 6px;
+    cursor: pointer;
 }
-      
+.social-icon div button:hover{
+    border: 2px solid white;
+
+}
 .social-icon{
     margin-top: 30px;
 }

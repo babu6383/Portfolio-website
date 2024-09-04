@@ -57,7 +57,7 @@ const Condact = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <div className="condact-details"  data-aos="fade-up">
                     <div className="condact-detail">
-                        <img src={mail_icon} alt="" srcset="" /><p>dineshbabu@gmail.com</p>
+                        <img src={mail_icon} alt="" srcset="" /><p>dineshbabu1748@gmail.com</p>
 
                     </div>
                     <div className="condact-detail"  data-aos="fade-up">
@@ -69,12 +69,12 @@ const Condact = () => {
                         
                     </div>
                     <div className="social-icon" >
-                   <button onClick={() => window.open('www.linkedin.com/in/dinesh-babu-bb016930a', '_blank')} data-aos="fade-left"><img src={linkedin} alt="LinkedIn" /></button>
-                   <button onClick={() => window.open('https://github.com/babu6383', '_blank')} data-aos="fade-left"><img src={github} alt="GitHub" /></button>
-                   <button onClick={() => window.open('t.me/techpapuu', '_blank')} data-aos="fade-left"><img src={telegram} alt="Telegram" /></button>
-                   <button onClick={() => window.open('www.twitter.com/@Dinesh1257162', '_blank')} data-aos="fade-left"><img src={twitter} alt="Twitter" /></button>
+                  <div> <button  onClick={() => window.open("https://www.linkedin.com/in/dinesh-babu-bb016930a", '_blank')} data-aos="fade-left"><img src={linkedin} alt="LinkedIn" /></button></div>
+                  <div><button  onClick={() => window.open('https://github.com/babu6383', '_blank')} data-aos="fade-left"><img src={github} alt="GitHub" /></button></div> 
+                  <div><button  onClick={() => window.open('https://t.me/techpapuu', '_blank')} data-aos="fade-left"><img src={telegram} alt="Telegram" /></button></div> 
+                  <div> <button  onClick={() => window.open('https://www.twitter.com/@Dinesh1257162', '_blank')} data-aos="fade-left"><img src={twitter} alt="Twitter" /></button></div>
                    {/* <button onClick={() => window.open('#', '_blank')} data-aos="fade-left"><img src={facebook} alt="Facebook" /></button> */}
-                   <button onClick={() => window.open('https://www.instagram.com/dio_dinesh_20_12?igsh=MWFieTk0amw1Z3hqeg==', '_blank')} data-aos="fade-left"><img src={instagram} alt="Facebook" /></button>
+                   <div> <button onClick={() => window.open('https://www.instagram.com/dio_dinesh_20_12?igsh=MWFieTk0amw1Z3hqeg==', '_blank')} data-aos="fade-left"><img src={instagram} alt="Facebook" /></button></div>
                    </div>
 
                 </div>
@@ -86,7 +86,7 @@ const Condact = () => {
                 <input type="email" placeholder='Enter your email' name='email'  data-aos="fade-up"/>
                 <label htmlFor=""  data-aos="fade-up">Right yout message here</label>
                 <textarea name="message" rows="8" placeholder='Enter your Message'  data-aos="fade-up"></textarea>
-                <button  type='submit'   className='condact-submit'  data-aos="fade-up"> Submit Now</button>
+                <button  type='submit'  className='condact-submit'  data-aos="fade-up"> Submit Now</button>
             </form>
         </div>
     </div>

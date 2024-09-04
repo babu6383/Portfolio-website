@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+// import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
 
 import AOS from 'aos'
@@ -16,7 +16,7 @@ const Footer = () => {
     <div className='footer' data-aos="fade-up">
         <div className="footer-top">
             <div className="footer-top-left" data-aos="fade-up">
-                <img src={footer_logo} alt="" srcset="" />
+            <h1 className='dinesh'><span>D</span> inesh</h1>
                 <p>"I'm Dinesh Babu, a passionate frontend developer crafting beautiful and functional web experiences."</p>
             </div>
             <div className="footer-top-right" data-aos="fade-up">
