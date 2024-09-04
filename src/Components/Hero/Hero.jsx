@@ -52,7 +52,7 @@ const Hero = () => {
     <div id='home' className='hero' data-aos="fade-up">
       <img src={profile_img} alt="Profile" />
       <h1 data-aos="fade-up"><span>I'm Dinesh Babu,</span> frontend developer</h1>
-      <p data-aos="fade-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <p data-aos="fade-up"> a passionate frontend developer crafting beautiful and functional web experiences."</p>
       <div className="hero-action">
         <div className="hero-connect" data-aos="fade-up">
           <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink>

@@ -35,6 +35,10 @@
 .nav-mob-open{
     display: none;
 }
+.nav-menu li:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;

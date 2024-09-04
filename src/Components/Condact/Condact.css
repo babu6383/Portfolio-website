@@ -271,6 +271,16 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+.social-icon button{
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px 6px;
+}
+      
+.social-icon{
+    margin-top: 30px;
+}
 
 /* Mobile and Tablet Styles */
 @media (max-width: 768px) {

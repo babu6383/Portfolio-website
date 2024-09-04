@@ -1,4 +1,4 @@
-/* .footer{
+ /* .footer{
     display: flex;
     margin: 50px 170px;
     flex-direction: column;
@@ -77,7 +77,7 @@
         margin-bottom: 50px;
     }
    
-} */
+}  */
 
 .footer {
     display: flex;
@@ -150,6 +150,15 @@
 .footer-subscribe:hover {
     transform: scale(1.1);
     transition: 0.3s;
+}
+.social-icon{
+    display: flex;
+}
+.social-icon img{
+    width: 30px;
+}
+.social2{
+    width:25px ;
 }
 
 /* Mobile and Tablet Styles */
