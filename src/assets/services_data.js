@@ -3,7 +3,7 @@ const Services_Data = [
         s_no:"01",
         s_name:"Youtube-Clone",
         s_desc:"Responsive,using youtube API in React...",
-        s_link: ""
+        s_link: "https://main--myclonetube.netlify.app/"
     },
     {
         s_no:"02",
@@ -19,17 +19,21 @@ const Services_Data = [
     {
         s_no:"04",
         s_name:"Quote Generator",
-        s_desc:"Generate Random Quote using Api..."
+        s_desc:"Generate Random Quote using Api...",
+        s_link: "https://monumental-cheesecake-bd1da2.netlify.app/"
+
     },
     {
         s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Password Generator",
+        s_desc:"Generate Random Passwords...",
+         s_link: "https://effortless-florentine-a80382.netlify.app/"
     },
     {
         s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Portfolio Website",
+        s_desc:"Responsive Portfolio Using React...",
+         s_link: "https://selfsite.netlify.app/"
     },
 ]
  
