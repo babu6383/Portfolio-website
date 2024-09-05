@@ -65,7 +65,7 @@ const Condact = () => {
                         
                     </div>
                     <div className="condact-detail"  data-aos="fade-up">
-                        <img src={location_icon} alt="" srcset="" /><p> Trichy</p>
+                        <img src={location_icon} alt="" srcset="" /><p> Chennai,Tambaram</p>
                         
                     </div>
                     <div className="social-icon" >
@@ -81,11 +81,20 @@ const Condact = () => {
             </div>
             <form  onSubmit={onSubmit} action="" className="condact-right"  data-aos="fade-up">
                 <label htmlFor="">Your Name</label>
-                <input type="text" placeholder='Enter your name' name='name'   data-aos="fade-up"/>
+
+                <input type="text" placeholder="Enter your name " name="name" required
+                onInvalid={(e) => e.target.setCustomValidity('Dude Enter your name 😓')}
+                onInput={(e) => e.target.setCustomValidity('')} data-aos="fade-up"/>
+
                 <label htmlFor="">Your Email</label>
-                <input type="email" placeholder='Enter your email' name='email'  data-aos="fade-up"/>
+
+                <input type="email" placeholder='Enter your email' name='email' required
+                onInvalid={(e) => e.target.setCustomValidity('Enter your email Dude ! 😓')}
+                onInput={(e) => e.target.setCustomValidity('')}    data-aos="fade-up"/>
+
+
                 <label htmlFor=""  data-aos="fade-up">Right yout message here</label>
-                <textarea name="message" rows="8" placeholder='Enter your Message'  data-aos="fade-up"></textarea>
+                <textarea name="message" rows="8" placeholder='Enter your Message' required data-aos="fade-up"></textarea>
                 <button  type='submit'  className='condact-submit'  data-aos="fade-up"> Submit Now</button>
             </form>
         </div>

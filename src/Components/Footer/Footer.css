@@ -242,6 +242,7 @@
     border-radius: 50px;
     background: #32323B;
     padding-right: 80px;
+ 
 }
 
 .footer-email-input input {
@@ -264,6 +265,7 @@
     cursor: pointer;
     transition: 0.3s;
     white-space: nowrap; /* Prevents text from wrapping */
+    
 }
 
 @media (max-width: 768px) {
@@ -276,6 +278,7 @@
         padding-right: 15px;
         align-items: stretch; /* Ensures input and button are full width */
         margin: 10px 50px;
+        display: none;
     }
     .footer-email-input img{
         width: 20px;
@@ -297,6 +300,8 @@
         text-align: center;
         padding: 20px 30px; /* Adjust padding for smaller screens */
         font-size: 18px;
+        display: none;
+        
     }
 }
 
@@ -304,6 +309,7 @@
     .footer-email-input {
         padding: 10px; /* Smaller padding for extra small screens */
         gap: 10px;
+        
     }
     
 
@@ -314,5 +320,6 @@
     .footer-subscribe {
         font-size: 16px; /* Smaller font size for button */
         padding: 12px 20px; /* Adjust padding for extra small screens */
+       
     }
 }
