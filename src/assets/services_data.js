@@ -20,7 +20,7 @@ const Services_Data = [
         s_no:"04",
         s_name:"Quote Generator",
         s_desc:"Generate Random Quote using Api...",
-        s_link: "https://monumental-cheesecake-bd1da2.netlify.app/"
+        s_link: "https://main--gotquotegenerator.netlify.app/"
 
     },
     {
