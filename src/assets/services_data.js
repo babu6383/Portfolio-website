@@ -27,7 +27,7 @@ const Services_Data = [
         s_no:"05",
         s_name:"Password Generator",
         s_desc:"Generate Random Passwords...",
-         s_link: "https://effortless-florentine-a80382.netlify.app/"
+         s_link: "https://main--randpwdgenerator.netlify.app/"
     },
     {
         s_no:"06",
