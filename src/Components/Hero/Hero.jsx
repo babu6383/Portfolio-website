@@ -35,9 +35,11 @@
 // export default Hero
 
 
+
 import React, { useEffect } from 'react';
 import './Hero.css';
-import profile_img from '../../assets/profile_img.svg';
+// import profile_img from '../../assets/profile_img.svg';
+import profile_img from '../../assets/final1.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import resume from '../../assets/Dinesh-babu-S-CV-Resume .pdf';
 import AOS from 'aos';

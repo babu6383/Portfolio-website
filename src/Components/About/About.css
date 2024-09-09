@@ -178,6 +178,9 @@
     display: flex;
     gap: 80px;
 }
+.about-sections img{
+    width: 350px;
+}
 
 .about-right {
     display: flex;

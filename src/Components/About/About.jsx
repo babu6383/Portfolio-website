@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/final2.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'; // Import AOS styles
 
@@ -32,7 +32,7 @@ const About = () => {
                     <div className="about-skill"  data-aos="fade-up"><p>HTML & CSS</p> <hr style={{width:"90%"}}/></div>
                     <div className="about-skill"  data-aos="fade-up"><p>REACT JS</p> <hr style={{width:"40%"}}/></div>
                     <div className="about-skill"  data-aos="fade-up"><p>JAVASCRIPT</p> <hr style={{width:"75%"}}/></div>
-                    <div className="about-skill"  data-aos="fade-up"><p>NEXT JS</p> <hr style={{width:"50%"}}/></div>
+                    <div className="about-skill"  data-aos="fade-up"><p>BOOTSTRAP 5</p> <hr style={{width:"50%"}}/></div>
                 </div>
             </div>
         </div>
