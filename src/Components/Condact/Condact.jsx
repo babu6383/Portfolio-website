@@ -59,7 +59,7 @@ const Condact = () => {
       <div className="condact-section" data-aos="fade-up">
         <div className="condact-left" data-aos="fade-up">
           <h1>Let's talk</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>"Let’s collaborate to turn your visionary ideas into impactful solutions that drive success and innovation." </p>
           <div className="condact-details" data-aos="fade-up">
             <div className="condact-detail">
               <img src={mail_icon} alt="" srcSet="" />

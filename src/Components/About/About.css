@@ -180,6 +180,8 @@
 }
 .about-sections img{
     width: 350px;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 .about-right {
