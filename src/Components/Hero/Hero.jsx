@@ -41,7 +41,7 @@ import './Hero.css';
 // import profile_img from '../../assets/profile_img.svg';
 import profile_img from '../../assets/final1.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import resume from '../../assets/resume .pdf';
+import resume from '../../assets/resume.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
 
