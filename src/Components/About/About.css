@@ -312,7 +312,7 @@
         line-height: 32px;
     }
     .about-skill {
-        gap: 20px;
+        gap:5px;
         align-items: center;
     }
     .about-skill p {
